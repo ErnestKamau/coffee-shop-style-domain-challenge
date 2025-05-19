@@ -1,6 +1,3 @@
-from .order import Order
-
-
 class Customer:
     all_customers = []
     
@@ -25,10 +22,12 @@ class Customer:
         
         
     def create_order(self, coffee, price):
-            return Order(self, coffee, price)
+        from order import Order
+        return Order(self, coffee, price)
     
     def orders (self):
+        from order import Order
         return [order for order in Order.all_orders if order.customer == self]
     
     def coffees(self):
-        return list({order.coffee for order in self.orders()})
+        return list({order.coffee.name for order in self.orders()})
