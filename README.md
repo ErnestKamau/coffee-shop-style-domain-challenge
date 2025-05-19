@@ -32,7 +32,7 @@ This forms a many-to-many relationship between Customer and Coffee via the Order
 
   ## Getting Started
 # 1. Clone the Repository
-- git clone git@github.com:ErnestKamau/coffee-shop.git
+- git clone git@github.com:ErnestKamau/coffee-shop-style-domain-challenge.git
 - cd coffee-shop
 
 # 2. Install Dependencies
