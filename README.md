@@ -32,7 +32,7 @@ This forms a many-to-many relationship between Customer and Coffee via the Order
 
   ## Getting Started
 # 1. Clone the Repository
-- git clone git@github.com:<your-username>/coffee-shop.git
+- git clone git@github.com:<ErnestKamau/coffee-shop.git
 - cd coffee-shop
 
 # 2. Install Dependencies
@@ -46,3 +46,6 @@ You can run the project in interactive mode using the built-in debug.py script.
 
 Use this script to manually create customers, coffees, and orders and print results to the console.
 
+## AUTHOR
+- GitHub: @ErnestKamau
+- Ernest Kamau
