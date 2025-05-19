@@ -8,8 +8,6 @@ Define Coffee types with immutable properties
 
 Track Orders between customers and coffees
 
-Query order history, customer preferences, and coffee popularity
-
 Built-in logic for calculating averages, totals, and customer rankings
 
 ## Domain Model
